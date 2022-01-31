@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distributeur de tickets</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <header><h1>Distributeur de tickets pour la promo</h1></header>
+    <h2>Ici c'est comme à la poissononerie, il faut faire la queue !</h2>
+    <form>
+      <p>Ton nom :</p>
+      <input type="text" class="todo-input" />
+      <button class="todo-button" type="submit">Je veux de l'aide</button>
+    </form>
+
+   <h3>Liste des apprenant.e.s</h3>
+   <form>
+     <button>Au suivant !</button>
+     <button>Rafraichir la liste</button>
+   </form>
+   <form>
+      <table>
+        <thead>
+         <tr>
+          <th>Nom</th>
+          <th>Date</th>
+          <th>Passer mon tour</th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>Olivier</td>
+          <td>13/01/2022, 09:55:38</td>
+          <td><button class="delete">Je passe mon tour</button></td>
+         </tr>
+         <tr>
+          <td class="todo-list"></td>
+          <td></td>
+          <td></td>
+         </tr>
+        </tbody>
+      </table>
+   </form>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
