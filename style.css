@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+h1 {
+  background-color: rgb(255, 183, 3);
+  padding: 20px;
+  height: 100px;
+}
+
+/* <!-- 1ere partie du tableau --> */
+
+h2 {
+  background-color: rgb(142, 202, 230);
+  padding: 15px;
+  height: 45px;
+}
+
+#help {
+  justify-content: space-around;
+}
+
+/* <!-- 2e partie de tableau --> */
+
+form input,
+form button {
+  padding: 8px;
+  font-size: 25px;
+  background: white;
+}
+
+form button {
+  background-color: rgb(2, 48, 71);
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+form button:hover {
+  background-color: rgb(2, 48, 71);
+  color: rgb(142, 202, 230);
+}
+
+/* <!-- 3e partie du tableau --> */
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+.todo {
+  margin: 0.5rem;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+} 
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.delete {
+  background-color: rgb(251, 133, 0);
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 3%;
+}
+
+.delete:hover {
+  background-color: rgb(251, 133, 0);
+  color: rgb(2, 48, 71);
+}
