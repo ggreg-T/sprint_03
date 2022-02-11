@@ -44,12 +44,12 @@ function Check(e) {
 }
 //------------DATE------------
 function recherche_date() {
-  var d = new Date(); //instensiation de la date
-  let day = addZero(d.getDate()); //instensiation du jour
-  let month = addZero(d.getMonth() + 1); //instensiation du mois
-  let h = addZero(d.getHours()); //instensiation de l'heure
-  let m = addZero(d.getMinutes()); //instensiation des minute
-  let s = addZero(d.getSeconds()); //instensiation des seconde
+  var d = new Date(); //creation de la date
+  let day = addZero(d.getDate()); //jour
+  let month = addZero(d.getMonth() + 1); //mois
+  let h = addZero(d.getHours()); //l'heure
+  let m = addZero(d.getMinutes()); //minute
+  let s = addZero(d.getSeconds()); //seconde
   function addZero(i) {
     if (i < 10) {
       i = "0" + i;
